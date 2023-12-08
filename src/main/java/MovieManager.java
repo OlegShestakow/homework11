@@ -19,9 +19,10 @@ public class MovieManager {
         movies = tmp;
 
     }
-        public String[] findAll() {
-            return movies;
-        }
+
+    public String[] findAll() {
+        return movies;
+    }
 
 
     public String[] findLast() {
